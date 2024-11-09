@@ -21,7 +21,7 @@ pip install joblib pandas numpy
 
 ```python
 fault_detector_csv = FaultDetectionModel(
-    model_path='modelo_fallas_oficinas_gpu.joblib',
+    model_path='model.joblib',
     data_source='oficinas.csv'
 )
 ```
@@ -35,7 +35,7 @@ data_dict = {
     'vp3': [3.4, 3.5, 3.7]
 }
 fault_detector_var = FaultDetectionModel(
-    model_path='modelo_fallas_oficinas_gpu.joblib',
+    model_path='model.joblib',
     data_source=data_dict
 )
 ```
